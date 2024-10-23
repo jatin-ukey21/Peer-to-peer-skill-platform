@@ -1,0 +1,99 @@
+/* Main container to hold all course boxes */
+.course-container {
+  padding: 20px;
+  background-color: #f0f0f0; /* Background color */
+}
+
+/* Style for the search bar */
+.search-bar {
+  width: 100%; /* Full width for the search bar */
+  padding: 10px; /* Padding for comfort */
+  font-size: 16px; /* Font size */
+  border: 2px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 10px; /* Spacing below the search bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Dropdown list */
+.dropdown-list {
+  position: absolute; /* Position relative to the parent */
+  background-color: white; /* Background for the dropdown */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  max-height: 200px; /* Max height for dropdown */
+  overflow-y: auto; /* Scroll if too many items */
+  z-index: 10; /* Ensure dropdown appears above other elements */
+}
+
+/* Each dropdown item */
+.dropdown-item {
+  padding: 10px; /* Padding for comfort */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Highlight on hover */
+}
+
+/* Skills grid to display course boxes horizontally */
+.skills-grid {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow wrapping to new lines */
+  justify-content: space-around; /* Space between boxes */
+}
+
+/* Each individual course box */
+.course-box {
+  width: 300px; /* Control the width */
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease-in-out; /* Animation for hover effect */
+  overflow: hidden; /* Ensure content fits nicely */
+}
+
+/* On hover, make the box stand out */
+.course-box:hover {
+  transform: translateY(-5px); /* Move up slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+/* The course image at the top */
+.course-image {
+  width: 100%; /* Full width */
+  height: 180px; /* Fixed height */
+  object-fit: cover; /* Image covers the area nicely */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Course name */
+.course-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #333; /* Darker text */
+}
+
+/* Course category */
+.course-category {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #666; /* Lighter text for the category */
+}
+
+/* Description */
+.course-description {
+  padding: 10px 15px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .course-box {
+    width: 100%; /* Full width on smaller devices */
+  }
+}

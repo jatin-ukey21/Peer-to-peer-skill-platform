@@ -1,0 +1,51 @@
+/* src/components/Login.css */
+
+.login-container {
+    position: absolute; /* Positioning */
+    top: 50%; /* Center vertically */
+    left: 5%; /* Adjust as needed for left alignment */
+    transform: translateY(-50%); /* Adjust for centering */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 20px; /* Padding around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow */
+    max-width: 400px; /* Maximum width */
+    width: 100%; /* Full width up to the max */
+}
+
+.login-container h1 {
+    font-family: 'Major Mono Display', monospace; /* Same font as Home */
+    font-size: 24px; /* Adjust size as needed */
+    text-align: center; /* Center the title */
+}
+
+.login-container label {
+    display: block; /* Make labels block elements */
+    margin: 15px 0; /* Space between labels */
+    font-family: 'Major Mono Display', monospace; /* Same font */
+    font-size: 18px; /* Match font size with Home page */
+}
+
+.login-container input {
+    width: 95%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 3px; /* Rounded corners */
+    margin-top: 3px; /* Space above input */
+}
+
+.login-container button {
+    background-color: #0000ff; /* Button color */
+    color: rgb(252, 252, 252); /* Text color */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-container button:hover {
+    background-color: #FFA500; /* Change color on hover */
+}

@@ -1,0 +1,43 @@
+/* src/components/Nav.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px; /* Padding around navbar */
+    margin-bottom: 20px; /* Space below navbar */
+    position: relative; /* Make position relative for z-index */
+    z-index: 10; /* Ensure navbar is above the background image */
+}
+
+.navbar h1 {
+    color: white; /* Title color */
+    margin: 0; /* Remove default margin */
+    font-family: 'Katibeh', sans-serif;
+    font-size: 40px;
+    
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display links inline */
+}
+
+.navbar li {
+    margin-left: 20px; /* Space between each link */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Spacing between links */
+    font-family: 'Katibeh', sans-serif; /* Set the font to Katibeh */
+    font-size: 32px; /* Adjust font size as needed */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: lightgray; /* Change color on hover */
+}

@@ -1,0 +1,39 @@
+
+
+  /* src/components/Home.css */
+
+.home {
+  position: absolute;
+  color: rgb(0, 0, 0); /* Text color */
+   /*Center text */
+  text-align:center;
+  font-family: 'Major Mono Display', monospace;
+  padding: 20px 20px 20px 40px; /* Padding around content */
+  height: 80%; /* Ensure the div takes the full height */
+}
+
+
+
+.get-started-button {
+  position: absolute; /* Positioning the button */
+  top: 410px;
+  left: 170px; /* Distance from the left */
+  background-color: #0000ff; /* Button background color */
+  color: rgb(254, 250, 250); /* Text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-family: 'Major Mono Display', monospace; /* Font for the button */
+  font-size: 18px; /* Font size */
+  text-decoration: none; /* No underline */
+  transition: background-color 0.3s; /* Smooth transition */
+
+  display: flex; /* Use Flexbox for alignment */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  height: auto; /* Set height based on content */
+}
+
+.get-started-button:hover {
+  background-color: #FFA500; /* Change color on hover */
+}

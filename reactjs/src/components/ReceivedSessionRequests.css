@@ -1,0 +1,52 @@
+.session-requests-container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.session-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.session-requests-table th, 
+.session-requests-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+.session-requests-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Add this to your ReceivedSessionRequests.css file */
+.confirm-btn, .reject-btn {
+    margin-right: 10px; /* Add spacing between buttons */
+    padding: 10px 20px; /* Optional: Add padding to make buttons look nicer */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff5f5f;
+    color: white;
+}
+
+.confirm-btn {
+    background-color: #28a745; /* Green for Confirm */
+}
+
+.reject-btn {
+    background-color: #dc3545; /* Red for Reject */
+}
+
+button:disabled {
+    background-color: grey; /* Grey out the disabled button */
+    cursor: not-allowed;
+}

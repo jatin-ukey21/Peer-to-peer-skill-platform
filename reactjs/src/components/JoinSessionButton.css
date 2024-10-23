@@ -1,0 +1,45 @@
+.join-session-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #f7f7f7;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Centering the input field */
+#room-id {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Add some space between input and button */
+}
+
+/* Container for button to ensure it's below the input */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-session-button {
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.join-session-button:hover {
+    background-color: #d44000;
+}
