@@ -1,4 +1,4 @@
-# Peer-to-Peer Skill Exchange Platform  
+# ⭐Peer-to-Peer Skill Exchange Platform  
 
 A web-based platform designed to facilitate skill-sharing and collaboration among users. This platform allows individuals to list skills they want to teach or learn, connect with suitable peers, schedule learning sessions, and conduct video conferencing for real-time interaction.  
 
